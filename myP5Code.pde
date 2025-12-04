@@ -11,7 +11,9 @@ void draw(){
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  ellipse(50,50,100,80);
+  ellipse(200,80,100,90);
+  ellipse(200,185,130,120);
+  ellipse(200,315,180,145);
   
 
 }
@@ -36,19 +38,21 @@ void mousePressed(){
 //🟡Key Pressed Procedure - Runs When Keyboard Key is Pressed
 void keyPressed(){
   if(key == 'c' || key == 'C'){
-    background(255,255,255,100);
+    background(255,255,255);
   }
 
   if(key == 'r' || key == 'R'){
-    fillR = random(100,255);
+    fillR = random(0,0);
     fillG = 0;
     fillB = 0;
   }
 
   if(key == 'g' || key == 'G'){
-    fillR = 0;
-    fillG = random(100,255);
+    fillR = 150;
+    fillG = 75;
     fillB = 0;
   }
 }
+
+
 
